@@ -26,6 +26,8 @@ def add_transaction():
     transactions.append(transaction)
     return redirect('/')
 
-
+# To run the project
+# make sure you install flask 'pip3 insall flask'
+# run this python file, and visit http://localhost:5000/
 if __name__ == '__main__':
     app.run()
